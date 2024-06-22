@@ -1,0 +1,87 @@
+cover:
+  scheme: search
+  height_scheme: half # full, half
+navbar:
+  visiable: auto # always, auto
+  logo: # choose [img] or [icon + title]
+    img: volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    icon:
+    title:
+  menu:
+    - name: 博客
+      icon: fa-solid fa-rss
+      url: /
+    - name: 分类
+      icon: fa-solid fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fa-solid fa-tags
+      url: tags/
+    - name: 归档
+      icon: fa-solid fa-archive
+      url: archives/
+    - name: 友链
+      icon: fa-solid fa-link
+      url: friends/
+    - name: 更多
+      icon: fa-solid fa-ellipsis-v
+      rows:
+        - name: 暗黑模式
+          icon: fa-solid fa-moon
+          url: javascript:void(0)
+          script: |
+            document.body.classList.toggle('dark')
+        - name: hr
+        - name: 关于
+          icon: fa-solid fa-info-circle
+          url: about/
+  search: Search...   # Search bar placeholder
+sidebar:
+  widget_library: 
+    blogger:
+      class: blogger
+      display: [desktop] # [desktop, mobile]
+      avatar: https://avatars.githubusercontent.com/u/80243260?v=4
+      title:
+      subtitle: 
+      jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social: true
+    category:
+      class: category
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-folder-open
+        title: 文章分类
+        url: /blog/categories/
+    tagcloud:
+      class: tagcloud
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-tags
+        title: 热门标签
+        url: /blog/tags/
+      min_font: 14
+      max_font: 24
+      color: true
+      start_color: '#999'
+      end_color: '#555'
+comments:
+  service: vssue
+  vssue:
+    owner:
+    repo:
+    clientId:
+    clientSecret:
+
+
+site_footer:
+  # layout of footer: [aplayer, social, license, info, copyright]
+  layout: [aplayer, social, license, info, copyright]
+  social:
+    - icon: fas fa-envelope
+      url: mailto:canters04.sold@icloud.com
+    - icon: fab fa-github
+      url: https://github.com/HmEJ
+  copyright: '[Copyright © 2024-2026](/)'
+  # You can add your own property here. (Support markdown, for example: br: '<br>')
+  br: '<hr>'
