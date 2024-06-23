@@ -204,3 +204,7 @@ cdn_system:
       # cdnjs CDN 格式
       format: ${prefix}/${name}/${version}/${min_file}
   # ========================================================================
+# 插件库
+plugins:
+  darkmode:
+    enable: true
