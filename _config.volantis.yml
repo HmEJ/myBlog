@@ -1,7 +1,8 @@
+# 页面设置
 cover:
-  scheme: search
+  scheme: dock
   height_scheme: half # full, half
-  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -11,6 +12,7 @@ cover:
   title: "aHang's Blog"
   subtitle: ''
   search: 全站检索... # search bar placeholder
+# dock cover
   features:
     - name: 博客
       icon: fa-solid fa-rss
@@ -27,10 +29,12 @@ cover:
     - name: 友链
       icon: fa-solid fa-link
       url: friends/
+
+# 导航栏
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://avatars.githubusercontent.com/u/80243260?v=4
+    img: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png
   menu:
     - name: 博客
       icon: fa-solid fa-rss
@@ -57,19 +61,23 @@ navbar:
         - name: 关于
           icon: fa-solid fa-info-circle
           url: about/
-  search: Search...   # Search bar placeholder
+  search: 键入以搜索内容...   # Search bar placeholder
+
+# 侧边栏
 sidebar:
   widget_library: 
     blogger:
       class: blogger
       display: [desktop] # [desktop, mobile]
-      avatar: https://avatars.githubusercontent.com/u/80243260?v=4
+      avatar: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png
       title:
       subtitle: 
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fas fa-envelope
           url: mailto:canters04.sold@icloud.com
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/j.elmo/
         - icon: fab fa-github
           url: https://github.com/HmEJ
     category:
@@ -78,66 +86,121 @@ sidebar:
       header:
         icon: fas fa-folder-open
         title: 文章分类
-        url: /blog/categories/
+        url: categories/
     tagcloud:
       class: tagcloud
       display: [desktop] # [desktop, mobile]
       header:
         icon: fas fa-tags
         title: 热门标签
-        url: /blog/tags/
+        url: tags/
       min_font: 14
       max_font: 24
       color: true
       start_color: '#999'
       end_color: '#555'
+
+# 评论系统
 comments:
-  service: vssue
-  vssue:
-    owner:
-    repo:
-    clientId:
-    clientSecret:
- # 站内搜索   
+  title: <i class='fas fa-comments'></i> 评论
+  subtitle:
+  service: giscus
+  giscus:
+    repo: HmEJ/HmEJ.github.io
+    repo-id: R_kgDOMMtMww
+    category: Announcements
+    category-id: DIC_kwDOMMtMw84CgUSD
+    mapping: "pathname"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    lang: "zh-CN"
+    theme:
+      light: "light"
+      dark: "dark"
+
+# 文章设置
+article:
+  body:
+    footer_widget:
+      copyright:
+        enable: true
+        permalink: '本文永久链接是: '
+        content:
+          - '博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
+          - permalink
+        custom: true
+        customData:
+          default: type1  # 默认授权声明
+      donate:
+        enable: true
+        images:
+          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png
+    meta_library:
+      author:
+          avatar: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png # https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
+          name: aHang
+          url: https://github.com/HmEJ
+      share:
+        - id: qq
+          img:  volantis-static/media/org.volantis/logo/128/qq.png #  https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+        - id: qzone
+          img: volantis-static/media/org.volantis/logo/128/qzone.png #  https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+        - id: weibo
+          img: volantis-static/media/org.volantis/logo/128/weibo.png #  https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
+        - id: telegram
+          img: volantis-static/media/org.volantis/logo/128/telegram.png
+# 站内搜索   
 search:
   enable: true
   service: hexo  
-# 插件库
-plugins:
-  darkmode:
-    enable: true
-  killOldVersionsOfIE:
-    enable: true
-  killNoScript:
-    enable: true
-  # 代码高亮
-  code_highlight: highlightjs # highlightjs or prismjs
-  # highlight.js
-  highlightjs:
-    copy_code: true
-    # 如果开启以下配置, hexo.config.highlight.enable 需要设置为 false ; hexo.config.highlight.enable 设置为 true, 则以下配置无效
-    # # 不再支持 v11.1.0 以下版本
-    # js: https://unpkg.com/@highlightjs/cdn-assets@11.5.1/highlight.min.js # Please set hexo.config.highlight.enable = false !!!
-    # css: https://unpkg.com/@highlightjs/cdn-assets@11.5.1/styles/default.min.css
-    # # # more: https://www.jsdelivr.com/package/npm/@highlightjs/cdn-assets?path=styles
 
-  # prismjs
-  # https://prismjs.com/
-  # https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS
-  prismjs:
-    copy_code: true
-    # Please set hexo.config.highlight.enable = false !!! set hexo.config.prismjs.enable = true !!!
-    js:
-      - https://unpkg.com/prismjs/components/prism-core.min.js
-      - https://unpkg.com/prismjs/plugins/autoloader/prism-autoloader.min.js
-      - https://unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-    css:
-      - https://unpkg.com/prismjs/themes/prism-dark.css
-      - https://unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.css
-
+# 页脚
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, info, copyright]
   copyright: '[Copyright © 2024-2026](/) <br> 本站由hexo强力驱动 | 备案号...'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   # br: '<hr>'
+
+# CDN 优化
+cdn_system:
+  priority: [custom, local, cdnjs, npm, static]
+  system_config:
+    # 自定义配置 使用 "theme/_cdn.yml" 中的名称作为配置项的键
+    custom:
+      #volantis_style: /css/style.css
+      #volantis_app: /js/app.js
+
+    # 主题 /js与/css目录 （一般放在本地，可以在此处配置站点CDN）,"theme/_cdn.yml" 中以 "volantis_" 开头的名称
+    # Tip: 在本配置文件中 匹配以 "volantis-local" 开头的链接路径替换为该格式的前缀开头 prefix
+    local:
+      # CDN 链接前缀
+      prefix: ${site_root}
+      # local CDN 格式
+      format: ${prefix}${file}
+    # npm
+    # https://www.npmjs.com/
+    # Tip: 在本配置文件中 匹配以 "volantis-npm" 开头的链接路径替换为该格式的前缀开头 prefix
+    npm:
+      # CDN 链接前缀
+      prefix: https://unpkg.com
+      # npm CDN 格式
+      format: ${prefix}/${name}@${version}/${file}
+    # volantis static 静态资源文件 npm 包 CDN 地址
+    # https://github.com/volantis-x/volantis-static
+    # Tip: 在本配置文件中 匹配以 "volantis-static" 开头的链接路径替换为该格式的前缀开头 prefix
+    static:
+      # CDN 链接前缀
+      prefix: https://unpkg.com/volantis-static@0.0.1660614606622
+      # volantis-static CDN 格式
+      format: ${prefix}/libs/${name}/${file}
+    # cdnjs
+    # https://cdnjs.com/
+    # Tip: 在本配置文件中 匹配以 "volantis-cdnjs" 开头的链接路径替换为该格式的前缀开头 prefix
+    cdnjs:
+      # CDN 链接前缀
+      prefix: https://cdnjs.cloudflare.com/ajax/libs
+      # cdnjs CDN 格式
+      format: ${prefix}/${name}/${version}/${min_file}
+  # ========================================================================

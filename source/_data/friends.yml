@@ -1,0 +1,15 @@
+- group: 我的朋友们 # 分组标题
+  description:   # 分组描述
+  items:
+    - title: 123
+      avatar: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png # 头像
+      url: 123# 链接
+      screenshot: 123 # 截图
+      keywords: 123# 关键词
+      description: 231# 描述
+    - title: # 名称
+      avatar: # 头像
+      url: # 链接
+      screenshot: # 截图
+      keywords: # 关键词
+      description: # 描述
