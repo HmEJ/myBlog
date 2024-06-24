@@ -30,7 +30,7 @@ frp 是一款高性能的反向代理应用，专注于内网穿透。它支持�
 
 ## 下载
 
-如果你是win系统，可以通过frp的[github releases]([Releases · fatedier/frp (github.com)](https://github.com/fatedier/frp/releases))点击下载文件。
+如果你是win系统，可以通过frp的[github releases](https://github.com/fatedier/frp/releases)点击下载文件。
 
 如果你是linux系统，你可以通过wget下载:
 
@@ -61,7 +61,7 @@ frps.toml就是源服务器的配置文件，源服务器指的就是你的云�
 
 ### 对于客户端（win机器）
 
-1. 通过[github releases]([Releases · fatedier/frp (github.com)](https://github.com/fatedier/frp/releases))下载文件
+1. 通过[github releases](https://github.com/fatedier/frp/releases)下载文件
 
 2. 保留文件中的`frpc.toml`和`frpc.exe`即可
 
