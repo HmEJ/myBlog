@@ -80,6 +80,8 @@ sidebar:
           url: https://www.instagram.com/j.elmo/
         - icon: fab fa-github
           url: https://github.com/HmEJ
+        # - icon: fab fa-youtube
+        #   url: https://www.youtube.com/channel/UC7Qfl9xgFGr3hT3zRXqAeEA
     category:
       class: category
       display: [desktop] # [desktop, mobile]
