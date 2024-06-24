@@ -2,12 +2,12 @@
 cover:
   scheme: dock
   height_scheme: half # full, half
-  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: focus # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
+  # background: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
   # background: https://cdn.jsdelivr.us/gh/HmEJ/images@main/infinity-2209530.jpg
   # logo: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: "aHang's Blog"
@@ -172,6 +172,31 @@ site_footer:
   copyright: '[Copyright © 2024-2026](/) <br> 本站由hexo强力驱动 | 备案号...'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   # br: '<hr>'
+# 自定义css
+custom_css:
+  scrollbar:
+    size: 8px
+    border: 2px
+    background: rgb(84,181,160) linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent)
+    hover_background: rgb(84,181,160) linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent)
+
+# 站内颜色设置
+color_scheme:
+  # ------------
+  # 通用颜色
+  common:
+    # 主题色
+    theme: '#F44336'
+    # 链接色
+    link: '#2092ec'
+    # 按钮色
+    button: '#44D7B6'
+    # 鼠标放到交互元素上时的色
+    hover: '#ff5722'
+    # 主题色块内部的文字颜色
+    inner: '#fff'
+    # 选中区域文字的背景颜色
+    selection: 'alpha(#2196f3, 0.2)'
 
 # CDN 优化
 cdn_system:
@@ -218,3 +243,31 @@ cdn_system:
 plugins:
   darkmode:
     enable: true
+  parallax:
+    enable: true
+    position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    shuffle: true         # shuffle playlist
+    duration: 10000       # Duration (ms)
+    fade: 500            # fade duration (ms) (Not more than 1500)
+    images:               # For personal use only. At your own risk if used for commercial purposes !!!
+      - volantis-static/media/wallpaper/minimalist/2020/001.webp
+      - volantis-static/media/wallpaper/minimalist/2020/002.webp
+      - volantis-static/media/wallpaper/minimalist/2020/003.webp
+      - volantis-static/media/wallpaper/minimalist/2020/004.webp
+      - volantis-static/media/wallpaper/minimalist/2020/005.webp
+      - volantis-static/media/wallpaper/minimalist/2020/006.webp
+      - volantis-static/media/wallpaper/minimalist/2020/012.webp
+      - volantis-static/media/wallpaper/minimalist/2020/016.webp
+      - volantis-static/media/wallpaper/minimalist/2020/019.webp
+      - volantis-static/media/wallpaper/minimalist/2020/025.webp
+      - volantis-static/media/wallpaper/minimalist/2020/033.webp
+      - volantis-static/media/wallpaper/minimalist/2020/034.webp
+      - volantis-static/media/wallpaper/minimalist/2020/035.webp
+      - volantis-static/media/wallpaper/minimalist/2020/038.webp
+      - volantis-static/media/wallpaper/minimalist/2020/039.webp
+      - volantis-static/media/wallpaper/minimalist/2020/042.webp
+      - volantis-static/media/wallpaper/minimalist/2020/046.webp
+      - volantis-static/media/wallpaper/minimalist/2020/051.webp
+      - volantis-static/media/wallpaper/minimalist/2020/052.webp
+      - volantis-static/media/wallpaper/minimalist/2020/054.webp
+      - volantis-static/media/wallpaper/minimalist/2020/056.webp
