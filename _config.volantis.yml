@@ -162,6 +162,13 @@ search:
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, info, copyright]
+  social:
+    - icon: fas fa-envelope
+      url: mailto:canters04.sold@icloud.com
+    - icon: fab fa-instagram
+      url: https://www.instagram.com/j.elmo/
+    - icon: fab fa-github
+      url: https://github.com/HmEJ
   copyright: '[Copyright © 2024-2026](/) <br> 本站由hexo强力驱动 | 备案号...'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   # br: '<hr>'
