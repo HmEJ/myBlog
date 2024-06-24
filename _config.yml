@@ -5,12 +5,12 @@
 # Site
 title: aHang's Blog
 subtitle: ''
-description: 'aHang的个人博客，记录生活、技术、读书、音乐等。'
-keywords:
+description: 'aHang的个人博客'
+keywords: aHang
 author: aHang
 language: zh-CN
 timezone: 'Asia/Shanghai'
-favicon: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png
+favicon: https://cdn.jsdelivr.us/gh/HmEJ/images@main/avatar.png
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://HmEJ.github.io
