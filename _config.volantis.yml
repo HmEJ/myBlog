@@ -34,7 +34,7 @@ cover:
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png
+    img: https://cdn.jsdelivr.us/gh/HmEJ/images@main/avatar.png
   menu:
     - name: 博客
       icon: fa-solid fa-rss
@@ -69,7 +69,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png
+      avatar: https://cdn.jsdelivr.us/gh/HmEJ/images@main/avatar.png
       title:
       subtitle: 
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
@@ -136,8 +136,8 @@ article:
       donate:
         enable: true
         images:
-          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png
+          - https://cdn.jsdelivr.us/gh/HmEJ/images@main/donate-wechat1.jpg # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+          - https://cdn.jsdelivr.us/gh/HmEJ/images@main/donate-alipay.jpg
     meta_library:
       author:
           avatar: https://cdn.jsdelivr.net/gh/HmEJ/images@main/avatar.png # https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
