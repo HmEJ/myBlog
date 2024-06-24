@@ -8,6 +8,7 @@ cover:
     archive: true
     others: false # can be written in front-matter 'cover: true'
   background: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
+  # background: https://cdn.jsdelivr.us/gh/HmEJ/images@main/infinity-2209530.jpg
   # logo: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: "aHang's Blog"
   subtitle: ''
