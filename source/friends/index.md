@@ -2,10 +2,9 @@
 layout: friends # 必须
 top_meta: false
 bottom_meta: false
+cover: true
 ---
 
-这是我的友链
+内容还在建设中🛠️...
 
 <!-- more -->
-
-友链规范

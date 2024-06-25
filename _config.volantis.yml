@@ -66,6 +66,9 @@ navbar:
 
 # 侧边栏
 sidebar:
+  position: right # left right
+  for_page: [blogger, category, tagcloud, lastupdate, webinfo]
+  for_post: [toc, category,  tagcloud]
   widget_library: 
     blogger:
       class: blogger
@@ -102,6 +105,33 @@ sidebar:
       color: true
       start_color: '#999'
       end_color: '#555'
+    lastupdate:
+      class: lastupdate
+      display: [desktop, mobile]
+      header:
+        icon: fa-solid fa-clock WISTERIA
+        title: 最近更新
+    webinfo:
+      class: webinfo
+      display: [desktop, mobile]
+      header:
+        icon: fa-solid fa-award
+        title: 站点信息
+      type:
+        article:
+          enable: true
+          text: '文章数目：'
+          unit: '篇'
+        runtime:
+          enable: true
+          data: '2024/6/24'    # 填写建站日期
+          text: '已运行时间：'
+          unit: '天'
+        lastupd:
+          enable: true
+          friendlyShow: true    # 更友好的时间显示
+          text: '最后活动时间：'
+          unit: '日'
 
 # 评论系统
 comments:
@@ -169,7 +199,7 @@ site_footer:
       url: https://www.instagram.com/j.elmo/
     - icon: fab fa-github
       url: https://github.com/HmEJ
-  copyright: '[Copyright © 2024-2026](/) <br> 本站由hexo强力驱动 | 备案号...'
+  copyright: '[Copyright © 2024-2026](/) <br> 本站由hexo强力驱动'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   # br: '<hr>'
 # 自定义css
