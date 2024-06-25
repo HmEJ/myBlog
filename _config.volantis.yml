@@ -2,13 +2,13 @@
 cover:
   scheme: dock
   height_scheme: half # full, half
-  layout_scheme: focus # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
+  background: https://cdn.jsdelivr.us/gh/HmEJ/images@main/compress-background.jpg
   # background: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
-  # background: https://cdn.jsdelivr.us/gh/HmEJ/images@main/infinity-2209530.jpg
   # logo: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: "aHang's Blog"
   subtitle: ''
@@ -244,7 +244,7 @@ plugins:
   darkmode:
     enable: true
   parallax:
-    enable: true
+    enable: false
     position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 10000       # Duration (ms)
