@@ -7,12 +7,9 @@ keywords:
   - 内网穿透
 date: 2024-06-24 11:48:44
 categories:
-  - 内网穿透
-tags: 
   - frp
-copyright:
-  type: type5           # 当前文章版权声明类型
-  author: aHang          # 本文作者    
+tags: 
+  - 内网穿透
 ---
 
 本文介绍如何通过frp在自己的云服务器上搭建内网穿透服务，提供对外暴露的web服务。

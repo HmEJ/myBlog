@@ -8,11 +8,8 @@ keywords:
 author: aHang
 categories:
   - nginx
-tags: 
+tags:
   - 正向代理
-copyright:
-  type: type5           # 当前文章版权声明类型
-  author: aHang          # 本文作者    
 ---
 
 本文介绍如何通过nignx实现正向代理。

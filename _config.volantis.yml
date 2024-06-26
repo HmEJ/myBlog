@@ -163,7 +163,7 @@ article:
           - permalink
         custom: true
         customData:
-          default: type1  # 默认授权声明
+          default: type5  # 默认授权声明
       donate:
         enable: true
         images:
