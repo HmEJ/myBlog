@@ -1,9 +1,0 @@
-- group: TEST 
-  description:  
-  items:
-    - title: TEST
-      avatar: https://cdn.jsdelivr.us/gh/HmEJ/images@main/avatar.png 
-      url: https://me.ahang.icu
-      screenshot: https://cdn.jsdelivr.us/gh/HmEJ/images@main/ScreenshotOfBlog.png 
-      keywords: test 
-      description: test 

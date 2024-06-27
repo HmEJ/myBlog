@@ -1,0 +1,11 @@
+- title: 朋友圈
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 回到主页
+  buttonLink: /
+  limit: 30
+  home_essay: true
+  top_background: https://cdn.jsdelivr.us/gh/HmEJ/images@main/compress-background.jpg
+  essay_list:
+    - content: 今天换了新的主题，又是仰慕大佬的一天...
+      date: 2023/06/27

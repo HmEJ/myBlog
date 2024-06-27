@@ -2,7 +2,6 @@
 title: win上超好用的包管理工具-scoop
 seo_title: win上超好用的包管理工具-scoop
 date: 2024-06-26 14:28:24
-author: aHang
 categories:
     - 工具
 tags:
@@ -11,8 +10,6 @@ tags:
 ---
 
 Linux 和 macOS 各有便捷的包管理工具。在 Ubuntu 上，可以通过 apt 轻松管理软件，使用 sdkman 管理开发环境。在 macOS 上，Homebrew 是一个流行的包管理工具，它同样可以轻松安装和管理各种软件包和开发环境。本文介绍的 Scoop 是一款适用于 Windows 系统的高效包管理工具，不仅能够安装众多软件，还能管理开发环境（如 Java 或 Node.js），从而避免因手动安装软件对系统目录造成污染。简直是强迫症患者福音！🤗
-
-<!--more-->
 
 ## 安装
 
