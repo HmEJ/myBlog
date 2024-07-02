@@ -325,7 +325,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use:  # Twikoo/Waline
+  use: Waline # Twikoo/Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -360,8 +360,8 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-  bg: # waline background
+  serverURL: https://vercel.me.ahang.icu # Waline server address url
+  bg: https://vercel.me.ahang.icu/ui # waline background
   pageview: false
   meta: false # 归属地, 操作系统 前是否显示图标
   imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
