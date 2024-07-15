@@ -6,12 +6,12 @@
 title: aHangssBlog
 subtitle: '随心'
 description: 'aHang的个人博客'
-# avatar: https://cdn.jsdelivr.us/gh/HmEJ/images@main/avatar.png
+# avatar: https://cdn.jsdmirror.com/gh/HmEJ/images@main/avatar.png
 keywords: aHang
 author: 魔鬼筋肉人
 language: zh-CN
 timezone: 'Asia/Shanghai'
-favicon: https://cdn.jsdelivr.us/gh/HmEJ/images@main/avatar.png
+favicon: https://cdn.jsdmirror.com/gh/HmEJ/images@main/avatar.png
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://me.ahang.icu
