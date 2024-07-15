@@ -1,9 +1,9 @@
 ---
 title: 搭建git服务 
 date: 2024-07-07 20:45:53
-tags:
-    - 自建服务
 categories:
+    - 运维
+tags:
     - git
 ---
 

@@ -1,13 +1,10 @@
 ---
 title: nginx实现正向代理
-seo_title: 通过nginx实现正向代理
 date: 2024-06-25 14:41:02
-keywords:
-  - nginx
-  - 正向代理
 categories:
-  - nginx
+  - 运维
 tags:
+  - nginx
   - 正向代理
 ---
 

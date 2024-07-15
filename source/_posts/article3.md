@@ -1,6 +1,5 @@
 ---
 title: win上超好用的包管理工具-scoop
-seo_title: win上超好用的包管理工具-scoop
 date: 2024-06-26 14:28:24
 categories:
     - 工具

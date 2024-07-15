@@ -1,14 +1,10 @@
 ---
 title: 通过frp搭建自己的内网穿透服务
-seo_title: 通过frp搭建自己的内网穿透服务
-keywords:
-  - frp
-  - 自建
-  - 内网穿透
 date: 2024-06-24 11:48:44
 categories:
-  - frp
+  - 运维
 tags: 
+  - frp
   - 内网穿透
 ---
 
