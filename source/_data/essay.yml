@@ -1,10 +1,10 @@
-- title: 朋友圈
-  subTitle: 咸鱼的日常生活。
+- title: 即刻短文
+  subTitle: 编程菜鸟随笔
   tips: 随时随地，分享生活
   buttonText: 回到主页
   buttonLink: /
   limit: 30
-  home_essay: true
+  home_essay: false
   top_background: https://cdn.jsdmirror.com/gh/HmEJ/images@main/compress-background.jpg
   essay_list:
     - content: 今天换了新的主题，又是仰慕大佬的一天...
