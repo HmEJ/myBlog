@@ -645,7 +645,7 @@ h2Divider: false
 table_interlaced_discoloration: false
 
 # 首页双栏显示
-article_double_row: true
+article_double_row: false
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默认top_img全屏，site_info在中间)
